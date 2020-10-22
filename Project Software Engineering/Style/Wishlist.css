@@ -1,0 +1,230 @@
+.header{
+    background-color: #f8f400;
+    display: flex;
+}
+
+.header input[type=search] {
+    padding: 6px;
+    padding-right: 300px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    font-size: 17px;
+}
+
+.shopping_cart{
+    margin-left: 40px;
+}
+
+.header button[type=signin]{
+    margin-right: 10px;
+    margin-left: 50px;
+}
+
+.header button[type=signup]{
+    margin-right: 20px;
+}
+
+.header input[type=submit]{
+    margin-right: 10opx;
+}
+
+.menu{
+    background-color: #364746;
+}
+
+.menu a:hover {
+    color: #28a745;
+}
+
+.menu a.active {
+    color: white;
+}
+
+.logo{
+    display: block;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.user{
+    margin-right: 20px;
+    margin-left: auto;
+    margin-top: 30px;
+}
+
+.profil{
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.home{
+    color: white;
+    font-family: Poppins-Bold;
+    margin-left: 150px;
+    margin-right: 100px;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.category{
+    color: white;
+    font-family: Poppins-Bold;
+    margin-left: 100px;
+    margin-right: 50px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+.shop{
+    color: white;
+    font-family: Poppins-Bold;
+    margin-left: 150px;
+    margin-right: 100px;
+    text-decoration: none;
+    text-align: center; 
+    font-size: 20px;
+}
+
+.wishlist{
+    color: white;
+    font-family: Poppins-Bold;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-decoration: none;
+    text-align: center; 
+    font-size: 20px;
+}
+
+.category{
+    color: white;
+    font-family: Poppins-Bold;
+    margin-left: 75px;
+    text-decoration: none;
+    text-align: center; 
+    font-size: 20px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+   
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: #7EC855;
+    font-family: 'Roboto', sans-serif;
+  }
+
+.quantity {
+    margin-left: 50px;
+    margin-right: 70px;
+}
+
+
+  .shopping-cart {
+    width: 750px;
+    height: 423px;
+    margin: 80px auto;
+    background: #FFFFFF;
+    box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
+    border-radius: 6px;
+   
+    display: flex;
+    flex-direction: column;
+  }
+
+  .title {
+    height: 60px;
+    border-bottom: 1px solid #E1E8EE;
+    padding: 20px 30px;
+    color: #5E6977;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+  }
+   
+  .item {
+    padding: 20px 30px;
+    height: 120px;
+    display: flex;
+  }
+   
+  .item:nth-child(3) {
+    border-top:  1px solid #E1E8EE;
+    border-bottom:  1px solid #E1E8EE;
+  }
+
+  .buttons {
+    position: relative;
+    padding-top: 30px;
+    margin-right: 60px;
+  }
+  .delete-btn,
+  .like-btn {
+    display: inline-block;
+    Cursor: pointer;
+  }
+  .delete-btn {
+    width: 18px;
+    height: 17px;
+    background: url(&quot;delete-icn.svg&quot;) no-repeat center;
+  }
+   
+  .like-btn {
+    position: absolute;
+    top: 9px;
+    left: 15px;
+    background: url('twitter-heart.png');
+    width: 60px;
+    height: 60px;
+    background-size: 2900%;
+    background-repeat: no-repeat;
+  }
+  .is-active {
+    animation-name: animate;
+    animation-duration: .8s;
+    animation-iteration-count: 1;
+    animation-timing-function: steps(28);
+    animation-fill-mode: forwards;
+  }
+   
+  @keyframes animate {
+    0%   { background-position: left;  }
+    50%  { background-position: right; }
+    100% { background-position: right; }
+  }
+
+  .image {
+    margin-right: 50px;
+  }
+   
+  Let’s add some basic style to  product name and description.
+  .description {
+    padding-top: 10px;
+    margin-right: 60px;
+    width: 115px;
+  }
+   
+  .description span {
+    display: block;
+    font-size: 14px;
+    color: #43484D;
+    font-weight: 400;
+  }
+   
+  .description span:first-child {
+    margin-bottom: 5px;
+  }
+  .description span:last-child {
+    font-weight: 300;
+    margin-top: 8px;
+    color: #86939E;
+  }
+

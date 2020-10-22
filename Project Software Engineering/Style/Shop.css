@@ -1,0 +1,146 @@
+.header{
+    background-color: #f8f400;
+    display: flex;
+}
+
+.header input[type=search] {
+    padding: 6px;
+    padding-right: 300px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    font-size: 17px;
+}
+
+.shopping_cart{
+    margin-left: 40px;
+}
+
+.header button[type=signin]{
+    margin-right: 10px;
+    margin-left: 50px;
+}
+
+.header button[type=signup]{
+    margin-right: 20px;
+}
+
+.header input[type=submit]{
+    margin-right: 10opx;
+}
+
+.menu{
+    background-color: #364746;
+}
+
+.menu a:hover {
+    color: #28a745;
+}
+
+.menu a.active {
+    color: white;
+}
+
+.logo{
+    display: block;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.user{
+    margin-right: 20px;
+    margin-left: auto;
+    margin-top: 30px;
+}
+
+.profil{
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.home{
+    color: white;
+    font-family: Poppins-Bold;
+    margin-left: 150px;
+    margin-right: 100px;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.category{
+    color: white;
+    font-family: Poppins-Bold;
+    margin-left: 100px;
+    margin-right: 50px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+.shop{
+    color: white;
+    font-family: Poppins-Bold;
+    margin-left: 150px;
+    margin-right: 100px;
+    text-decoration: none;
+    text-align: center; 
+    font-size: 20px;
+}
+
+.wishlist{
+    color: white;
+    font-family: Poppins-Bold;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-decoration: none;
+    text-align: center; 
+    font-size: 20px;
+}
+
+.category{
+    color: white;
+    font-family: Poppins-Bold;
+    margin-left: 75px;
+    text-decoration: none;
+    text-align: center; 
+    font-size: 20px;
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    margin-top: 150px;
+    text-align: center;
+    font-family: arial;
+    display: flex;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+  .main_shopP{
+      display: flex;
+  }
